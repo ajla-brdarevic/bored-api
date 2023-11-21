@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.filters input[type="range"] {
+  width: 100%;
+  margin: 10px 0; 
+}
+
+.filters input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px; 
+  height: 20px; 
+  background-color: #007bff; 
+  border-radius: 50%; 
+}
